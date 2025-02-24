@@ -1,0 +1,86 @@
+/*
+    Name: Steven Hibbard
+    Date:  25 February 2025
+    Index.css file used for both pages in this assignment. 
+    Style inspired by d2foundry.gg
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+body {
+    background-image: url(images/Tsushima_background_1.png);
+    background-attachment: fixed;
+}
+#second {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+ul.skills li {
+    font-family: 'Source Code Pro', Arial, Helvetica, sans-serif;
+    justify-content: flex-start;
+    border: solid black 2px;
+    box-shadow: 2px 2px 1px black;
+    margin: 2em;
+    width: 60%;
+    border-radius: 10px;
+    padding: 2em;
+    list-style-type: none;
+    background-color: darkcyan;
+    opacity: .87;
+    font-size: large;
+}
+
+h1, h2, h3 {
+    font-family: Helvetica, sans-serif;
+    font-size: 4em;
+    letter-spacing: .5em;
+}
+
+div.small_group {
+display: flex;
+}
+
+.about_me {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.about_me {
+    width: 40%;
+    height: 40%;
+    justify-content: flex-end;
+}
+
+div p {
+    align-self: flex-end;
+    border: solid black 2px;
+    box-shadow: 2px 2px 1px black;
+    margin: 2em;
+    width: 60%;
+    padding: 2em;
+    background-color: azure;
+    border-radius: 10px;
+}
+footer img {
+    max-height: 2em;
+}
+
+#second div {
+    justify-content: space-evenly;
+}
+.blender img{
+    width: 80%;
+}
+
+.blender, .animation, .hd2 {
+    margin: 5em;
+}
